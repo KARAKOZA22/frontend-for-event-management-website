@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8" />
+  <head>
+    <title>Contact us</title>
+    <script src="../JS/Contact us.js"></script>
+    <link rel="stylesheet" href="../CSS/Contact us.css" />
+  </head>
+  <body>
+    <div style="display: inline-block; vertical-align: top">
+      <img src="../IMAGES/1.png" alt="img" height="280px" width="550px" />
+    </div>
+    <div
+      style="
+        display: inline-block;
+        text-align: center;
+        margin-top: 100px;
+        margin-left: auto;
+      "
+    >
+      <em
+        ><a href="Welcome.html">Welcome</a>&emsp;&emsp;&emsp;&emsp;&emsp;<a
+          href="Services.html"
+          >Services</a
+        >&emsp;&emsp;&emsp;&emsp;&emsp;
+        <a href="Testimonials.html">Testimonials</a
+        >&emsp;&emsp;&emsp;&emsp;&emsp;<a href="About us.html">About us</a
+        >&emsp;&emsp;&emsp;&emsp;&emsp;<a href="Contact us.html"
+          >Contact us</a
+        ></em
+      ><br />
+    </div>
+    <br /><br /><br /><br />
+    <p>
+      We look forward to hearing from you! Tell me anything you want me to know
+      about your big day. (If you don't get in touch within 48 hours, check your
+      spam folder.)
+    </p>
+
+    <div class="container">
+      <form
+        name="myform"
+        onsubmit="return validate(), ValidateEmail(document.forms['myform']['em'])"
+      >
+        <lable for="firstname">Full Name *</lable><br />
+
+        <input type="text" name="na" class="search" /><br /><br />
+
+        <lable for="email">Email *</lable><br />
+
+        <input type="text" name="em" class="search" /><br /><br />
+
+        <label for="phone">Phone Number *</label><br />
+
+        <input type="text" name="no" class="search" /><br /><br />
+
+        <lable for="ame">Event Type *</lable><br />
+
+        <input type="text" name="ns" class="search" /><br /><br />
+
+        <lable for="ame">Event Date *</lable><br />
+
+        <input type="date" name="nsa" class="search" /><br /><br />
+
+        <lable for="message">Message *</lable><br />
+
+        <input type="text" name="name" class="message fit" /><br /><br />
+
+        <input type="submit" value="Submit" class="submit" /><br /><br />
+      </form>
+    </div>
+  </body>
+</html>

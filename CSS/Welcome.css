@@ -1,0 +1,21 @@
+body {
+  background: color #f2f2f2;
+}
+em,
+ul {
+  font-size: 20px;
+  font-family: Georgia;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+em,
+div.scroll {
+  margin: 0%;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  white-space: nowrap;
+}
